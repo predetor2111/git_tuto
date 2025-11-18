@@ -9,12 +9,16 @@ repository area - this area actually contains  the details of all the previous r
 
 git add <file> - add files from working area to staging area
 
-git rm --cached <file> - remove files fro  working area to staging area
+git rm --cached <file> - remove files from  staging area and bring back to untracked files i.e.working area
 
 git commit - i -> (write comment) -> esc -> :wq 
 
 git log - list down all the commits to the repository
 
-git restore <file> - remove all file changes from the working area.
+git restore <file> - remove all file changes from the working area / LAST COMMIT it gives.
 
-git restore --staged <file> - bring back file from staging to working area then do git restore
+git restore --staged <file> - it removes file changes from staging area to the working area. this works only if the changes are in staging area
+
+Diff between git rm and git restore
+ans: if you want to move whole file back to the untracked files, then we do git rm, otherwise if we just want the changes to be moved in working area or staging area then we do git restore
+
