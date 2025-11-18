@@ -36,8 +36,18 @@ note : the name of the remote connection is always used to establish communicati
 
 git push <name of the connection> <name of the branch> - push the changes from local to remote
 
-git pull origin master - download latest changes from the branch of the mentioned remote in your local machine
+git pull origin master - download latest changes from the branch of the mentioned remote in your local machine.
 
 git add <file1> <file2> <file3>
 
 git add .
+
+###recommended practice to do
+-make changes
+
+-git commit
+
+-git pull
+
+-git push
+(so that your commit never fails)
