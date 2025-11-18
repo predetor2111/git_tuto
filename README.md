@@ -12,7 +12,7 @@ git rm --cached <file> - remove files from staging area and bring back to untrac
 
 git commit - i -> (write comment) -> esc -> :wq
 
-git log - list down all the commits to the repository
+git log - list down all the commits to the repository.
 
 git restore <file> - remove all file changes from the working area / LAST COMMIT it gives.
 
