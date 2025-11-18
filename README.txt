@@ -24,5 +24,17 @@ ans: if you want to move whole file back to the untracked files, then we do git 
 
 git commit -m "your commit message" - if we dont want vim editor to opened
 
+git remote - list down all the connection names
+
+Remote connections - it helps you to link two git repositories for uploading and downloading changes from each other
+
+git remote add <name of remote conn> <link of the remote> - add a new remote connection
+
+git remote rm  <name of the remote> - this command deletes the remote connection
+
+git remote rename <oldname> <newname> - 
+note : the name of the remote connection is always  used to establish communication between the repository
+
+git push <name of the connection> <name of the branch> - push the changes from local to remote
 
 
